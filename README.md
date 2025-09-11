@@ -2,6 +2,10 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
+*A data-driven exploration of the links between migration, education, and child labour, using household and child-level survey data.*
+
+---
+
 ## Table of Contents
 
 - [About](#about)  
@@ -60,11 +64,48 @@ This workflow ensures **scalability, reproducibility, and modularity**.
 
 ## Key Findings
 
-*(To be filled in after your analysis results are finalized — examples might include):*
+Insights are drawn from children involved in **economic activities (labour)**:
 
-- Trends in child labour incidence across migrant vs non-migrant households.  
-- Socio-economic factors most strongly correlated with child labour.  
-- How discrepancies across quarterly data were resolved in the unified datasets.  
+### Age-wise Schooling & Dropout Patterns
+- **6–10 years**  
+  - 1,812 enrolled, but **361 dropped out** and **518 never enrolled**.  
+  - Early exclusion puts children at **high risk of entering labour at a young age**.  
+  - 🔹 *Recommendation:* Ensure flexible school timings, provide midday meals, and support family livelihoods to reduce push toward labour.
+
+- **11–14 years**  
+  - 4,150 enrolled, but **1,413 dropped out** and **275 never enrolled**.  
+  - Highly vulnerable due to **family responsibilities** and **economic hardship**.  
+  - 🔹 *Recommendation:* Expand livelihood support, counseling, and retention programs.
+
+- **15–18 years**  
+  - **4,047 dropped out**, surpassing **3,761 enrolled**, with **156 never enrolled**.  
+  - Many already in **hazardous or exploitative labour**.  
+  - 🔹 *Recommendation:* Introduce bridge education, vocational training, and stipend-based models to re-engage older adolescents.
+
+---
+
+### Birth Registration & Identity
+- **68% (45,000+)** children have a registered birth → a **positive base** for access to entitlements.  
+  - 🔹 *Recommendation:* Use this to link children with **Aadhaar, schooling, health benefits, and protection schemes**.  
+- **32% (21,099)** lack registration → leaving them **legally invisible and vulnerable**.  
+  - 🔹 *Recommendation:* Launch **birth registration drives** with government and local partners, especially in rural/migrant-heavy areas.
+
+---
+
+### Parental Education & Child Labour
+- **27.1% (21,163)** of working children have **illiterate fathers** → strongest link to child labour.  
+  - 🔹 *Insight:* Illiteracy often means unstable livelihoods and lack of awareness of rights/education benefits.  
+- **35.6% (27,382)** have fathers educated only up to **Class 1–5** → early-grade education provides **little protection** against child labour without economic stability.  
+- Only **3.5% (2,807)** of working children have fathers with **graduate or higher education** → confirming a **strong inverse correlation** between parental education and child labour.
+
+---
+
+### Overall Education Status
+- **192,034** currently enrolled → strong engagement achieved.  
+- **15,439** have dropped out → requiring **targeted re-enrollment**.  
+  - 🔹 *Recommendation:* Implement dropout tracing, counseling, and flexible education pathways.  
+- **4,012** never enrolled → at **highest risk of long-term exclusion**.  
+  - 🔹 *Recommendation:* Partner with governments/communities for **enrolment drives** in remote, migrant, or marginalized areas.
 
 ---
 
@@ -72,8 +113,8 @@ This workflow ensures **scalability, reproducibility, and modularity**.
 
 - **Language & runtime**: Python (Jupyter Notebooks)  
 - **Data manipulation**: pandas, numpy  
-- **Visualization**: matplotlib, seaborn (if applicable)  
-- **Other tools**: scikit-learn, statsmodels (if used)  
+- **Visualization**: matplotlib, seaborn 
+- **Other tools**: scikit-learn, statsmodels 
 
 ---
 
@@ -88,4 +129,3 @@ This workflow ensures **scalability, reproducibility, and modularity**.
    ```bash
    git clone https://github.com/nodonut6311/Child-Labour-and-Migration-Analysis.git
    cd Child-Labour-and-Migration-Analysis
-
