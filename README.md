@@ -1,4 +1,4 @@
-# Child Labour and Migration Analysis
+# ChildLabour-Migration-Analytics
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
