@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-*A data-driven exploration of the links between migration, education, and child labour, using household and child-level survey dat.*
+*A data-driven exploration of the links between migration, education, and child labour, using household and child-level survey data.*
 
 ---
 
